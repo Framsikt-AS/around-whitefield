@@ -1,0 +1,71 @@
+# Around Whitefield
+
+A comprehensive web application to explore places, restaurants, shopping centers, and recreational spots in Whitefield, Bangalore.
+
+## Features
+
+- Responsive web design using Angular and SCSS
+- Modular architecture with lazy-loaded feature modules
+- Interactive map and place filtering
+- Contact form with validation
+- Information about Whitefield and its attractions
+
+## Tech Stack
+
+- Angular 17
+- TypeScript
+- SCSS for styling
+- Angular Router for navigation
+- Reactive Forms
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js (v16 or higher)
+- npm (v8 or higher)
+
+### Installation
+
+1. Clone the repository
+2. Install the dependencies:
+   ```bash
+   npm install
+   ```
+3. Run the development server:
+   ```bash
+   npm start
+   ```
+4. Navigate to `http://localhost:4200/` in your browser
+
+## Build
+
+Run `npm run build` to build the project. The build artifacts will be stored in the `dist/` directory.
+
+## Project Structure
+
+```
+around-whitefield/
+├── src/
+│   ├── app/
+│   │   ├── home/
+│   │   ├── about/
+│   │   ├── places/
+│   │   ├── contact/
+│   │   ├── app.component.*
+│   │   ├── app.module.ts
+│   │   └── app-routing.module.ts
+│   ├── assets/
+│   ├── environments/
+│   ├── index.html
+│   ├── main.ts
+│   └── styles.scss
+├── angular.json
+├── package.json
+├── tsconfig.json
+└── README.md
+```
+
+## License
+
+This project is licensed under the MIT License

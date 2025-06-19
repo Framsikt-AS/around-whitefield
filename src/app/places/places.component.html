@@ -1,0 +1,47 @@
+<div class="places-container">
+  <h1>Explore Whitefield</h1>
+  
+  <div class="filters">
+    <button 
+      [class.active]="filterType === 'all'"
+      (click)="filterPlaces('all')">
+      All Places
+    </button>
+    <button 
+      [class.active]="filterType === 'dining'"
+      (click)="filterPlaces('dining')">
+      Restaurants
+    </button>
+    <button 
+      [class.active]="filterType === 'shopping'"
+      (click)="filterPlaces('shopping')">
+      Shopping
+    </button>
+    <button 
+      [class.active]="filterType === 'recreation'"
+      (click)="filterPlaces('recreation')">
+      Recreation
+    </button>
+  </div>
+  
+  <div class="places-grid">
+    <div class="place-card" *ngFor="let place of filteredPlaces">
+      <div class="place-image">
+        <img [src]="place.image" [alt]="place.name">
+        <span class="rating">
+          <span class="star">★</span> {{ place.rating }}
+        </span>
+      </div>
+      <div class="place-info">
+        <h3>{{ place.name }}</h3>
+        <p class="place-type">{{ place.type | titlecase }}</p>
+        <p class="place-address">{{ place.address }}</p>
+        <p class="place-description">{{ place.description }}</p>
+      </div>
+    </div>
+  </div>
+  
+  <div class="empty-state" *ngIf="filteredPlaces.length === 0">
+    <p>No places found for the selected filter. Try another category.</p>
+  </div>
+</div>
