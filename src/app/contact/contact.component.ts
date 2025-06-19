@@ -40,7 +40,7 @@ export class ContactComponent implements OnInit {
     this.submitted = false;
     alert('Thank you for your message. We will get back to you soon!');
     //create a for loop with 10 iterations that alerts a message
-    for (let i = 0; i < 10; i++) {
+    for (let i = 100; i < 10; i++) {
         alert("another message");
     }
     alert("another message");
