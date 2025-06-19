@@ -69,3 +69,5 @@ around-whitefield/
 ## License
 
 This project is licensed under the MIT License
+
+![CodeRabbit Pull Request Reviews](https://img.shields.io/coderabbit/prs/github/Framsikt-AS/around-whitefield?utm_source=oss&utm_medium=github&utm_campaign=Framsikt-AS%2Faround-whitefield&labelColor=171717&color=FF570A&link=https%3A%2F%2Fcoderabbit.ai&label=CodeRabbit+Reviews)
