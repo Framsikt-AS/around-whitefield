@@ -18,6 +18,13 @@ A comprehensive web application to explore places, restaurants, shopping centers
 - Angular Router for navigation
 - Reactive Forms
 
+## Design
+
+- Modern color scheme using vibrant blue-purple (#5D5FEF)
+- Responsive and clean UI
+- Beautiful Whitefield skyline as hero background image
+- Card-based layout for places and features
+
 ## Getting Started
 
 ### Prerequisites

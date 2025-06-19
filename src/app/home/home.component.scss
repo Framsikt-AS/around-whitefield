@@ -1,7 +1,7 @@
 .hero {
   height: 70vh;
   min-height: 400px;
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('/assets/whitefield-hero.jpg');
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/assets/images/whitefield-skyline.jpg');
   background-size: cover;
   background-position: center;
   display: flex;
@@ -24,9 +24,8 @@
       margin-bottom: 2rem;
       font-weight: 300;
     }
-    
-    .cta-button {
-      background-color: #4CAF50;
+      .cta-button {
+      background-color: #5D5FEF;
       color: white;
       border: none;
       padding: 0.75rem 1.5rem;
@@ -36,7 +35,7 @@
       transition: background-color 0.3s;
       
       &:hover {
-        background-color: darken(#4CAF50, 10%);
+        background-color: darken(#5D5FEF, 10%);
       }
     }
   }
