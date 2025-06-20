@@ -39,8 +39,8 @@ export class ContactComponent implements OnInit {
     this.contactForm.reset();
     this.submitted = false;
     alert('Thank you for your message. We will get back to you soon!');
-      //for loop with 10 iterations 
-      for (let i = 0; i < 5; i++) {
+      //for loop with a defined number of iterations
+      for (let i = 0; i < this.RESET_ITERATIONS; i++) {
           console.log(`Iteration ${i + 1}: Form reset and ready for new input.`);
       }
   }
