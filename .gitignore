@@ -40,3 +40,27 @@ testem.log
 # System Files
 .DS_Store
 Thumbs.db
+/.vs/AroundWhitefield/config/applicationhost.config
+/.vs/AroundWhitefield/copilot-chat/3a58b8da/sessions/054b802f-99bb-46d9-bd12-85fb9fa2b49b
+/.vs/AroundWhitefield/CopilotIndices/17.14.786.1071/CodeChunks.db
+/.vs/AroundWhitefield/CopilotIndices/17.14.786.1071/CodeChunks.db-shm
+/.vs/AroundWhitefield/CopilotIndices/17.14.786.1071/CodeChunks.db-wal
+/.vs/AroundWhitefield/CopilotIndices/17.14.786.1071/SemanticSymbols.db
+/.vs/AroundWhitefield/CopilotIndices/17.14.786.1071/SemanticSymbols.db-shm
+/.vs/AroundWhitefield/CopilotIndices/17.14.786.1071/SemanticSymbols.db-wal
+/.vs/AroundWhitefield/FileContentIndex/342d34c6-b79c-42d4-919e-849f6b8c41fc.vsidx
+/.vs/AroundWhitefield/FileContentIndex/6e94ce45-b03a-4f06-8e7a-06d5192e91c4.vsidx
+/.vs/AroundWhitefield/FileContentIndex/7b581eca-cf3f-4a83-920e-577af831c096.vsidx
+/.vs/AroundWhitefield/FileContentIndex/d225033d-00d1-42d5-b5ed-893d30d1877c.vsidx
+/.vs/AroundWhitefield/FileContentIndex/ee9b96df-a73c-4897-87ea-cc9f6218e1bd.vsidx
+/.vs/AroundWhitefield/v17/.wsuo
+/.vs/AroundWhitefield/v17/DocumentLayout.json
+/.vs/CopilotSnapshots/2F804B05BB99D946BD1285FB9FA2B49B/094A6800655BE8498E08C76FFBD26BD4/0717749604648738C4257B92523289F3
+/.vs/CopilotSnapshots/2F804B05BB99D946BD1285FB9FA2B49B/094A6800655BE8498E08C76FFBD26BD4/18CEA9A88D427670DB3603453EE3C3A9
+/.vs/CopilotSnapshots/2F804B05BB99D946BD1285FB9FA2B49B/094A6800655BE8498E08C76FFBD26BD4/A919B79A2E9CB7CAAA9AC67F330210FE
+/.vs/slnx.sqlite
+/.vs/AroundWhitefield/FileContentIndex/37340d8e-8880-4968-ba8c-b12340ace72f.vsidx
+/.vs/AroundWhitefield/FileContentIndex/3a0fdc15-759a-4c7a-857d-228381af7a8d.vsidx
+/.vs/AroundWhitefield/FileContentIndex/d3238e20-d0c8-4eb5-87f9-5534b98b5c0f.vsidx
+/.vs/AroundWhitefield/FileContentIndex/e6d4be85-54d1-4c97-b954-6922d7f53b42.vsidx
+*.vsidx
